@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <title>Custom Countdown</title>
+  </head>
+  <body>
+    <table id="inputSection">
+      <input id="inputYear" placeholder="year" type="text" name="" value="">
+      <input id="inputMonth" placeholder="month" type="text" name="" value="">
+      <input id="inputDay" placeholder="day" type="text" name="" value="">
+      <button id="submitButton" type="submit" name="button">Start Countdown</button>
+    </table>
+
+    <table class="countdownContainer">
+      <tr class="info">
+        <td colspan="4">Custom Countdown</td>
+      </tr>
+      <tr>
+        <td id="days"></td>
+        <td id="hours"></td>
+        <td id="minutes"></td>
+        <td id="seconds"></td>
+      </tr>
+      <tr>
+        <td>Days</td>
+        <td>Hours</td>
+        <td>Minutes</td>
+        <td>Seconds</td>
+      </tr>
+    </table>
+
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
